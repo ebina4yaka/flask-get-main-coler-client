@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot test for Top 1`] = `
+<div
+  className="MuiContainer-root MuiContainer-maxWidthSm"
+>
+  <div
+    className="MuiBox-root MuiBox-root-3 makeStyles-component-1"
+  >
+    <MockedTitle />
+    <MockedUploadImage />
+    <div
+      className="makeStyles-copyright-2"
+    >
+      <MockedCopyright />
+    </div>
+  </div>
+</div>
+`;

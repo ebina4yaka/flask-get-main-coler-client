@@ -1,12 +1,14 @@
 {
-  "name": "math-calc",
+  "name": "get-main-color",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
     "@material-ui/core": "4.11.0",
     "@material-ui/icons": "4.9.1",
+    "browser-image-compression": "1.0.13",
     "clsx": "1.1.1",
+    "isomorphic-unfetch": "3.1.0",
     "next": "10.0.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",

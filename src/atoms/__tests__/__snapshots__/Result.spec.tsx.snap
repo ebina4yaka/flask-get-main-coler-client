@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot test for Result 1`] = `
+<div
+  className="MuiPaper-root makeStyles-root-1 MuiPaper-elevation1 MuiPaper-rounded"
+>
+  <div
+    className="makeStyles-palette-2"
+  >
+    <div
+      className="makeStyles-color-3"
+      style={
+        Object {
+          "backgroundColor": "#fff",
+        }
+      }
+    />
+    <div
+      className="makeStyles-color-3"
+      style={
+        Object {
+          "backgroundColor": "#555",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Snapshot test for Result color empty 1`] = `null`;

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot test for Copyright 1`] = `
+<p
+  className="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-alignCenter"
+>
+  Copyright © 
+  <a
+    className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorInherit"
+    href="https://github.com/ebina4yaka"
+    onBlur={[Function]}
+    onFocus={[Function]}
+  >
+    ebina4yaka
+  </a>
+   2020.
+</p>
+`;
