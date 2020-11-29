@@ -5,25 +5,21 @@ exports[`Snapshot test for Result 1`] = `
   className="MuiPaper-root makeStyles-root-1 MuiPaper-elevation1 MuiPaper-rounded"
 >
   <div
-    className="makeStyles-palette-2"
-  >
-    <div
-      className="makeStyles-color-3"
-      style={
-        Object {
-          "backgroundColor": "#fff",
-        }
+    className="makeStyles-color-2"
+    style={
+      Object {
+        "backgroundColor": "#fff",
       }
-    />
-    <div
-      className="makeStyles-color-3"
-      style={
-        Object {
-          "backgroundColor": "#555",
-        }
+    }
+  />
+  <div
+    className="makeStyles-color-2"
+    style={
+      Object {
+        "backgroundColor": "#555",
       }
-    />
-  </div>
+    }
+  />
 </div>
 `;
 

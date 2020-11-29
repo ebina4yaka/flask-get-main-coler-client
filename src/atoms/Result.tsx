@@ -10,10 +10,7 @@ type Props = {
 const useStyles = makeStyles((theme) =>
   createStyles({
     root: {
-      margin: 'auto',
       padding: theme.spacing(1),
-    },
-    palette: {
       display: 'flex',
       flexDirection: 'row',
       alignItems: 'center',
@@ -22,8 +19,8 @@ const useStyles = makeStyles((theme) =>
     },
     color: {
       margin: theme.spacing(1),
-      padding: theme.spacing(4),
-      width: '25%',
+      padding: theme.spacing(3, 2, 3),
+      width: '14%',
     },
   })
 )
@@ -36,17 +33,15 @@ export default function Result(props: Props): ReactElement {
   const classes = useStyles()
   return (
     <Paper className={classes.root}>
-      <div className={classes.palette}>
-        {colors.map((color) => {
-          return (
-            <div
-              key={color}
-              className={classes.color}
-              style={{ backgroundColor: color }}
-            />
-          )
-        })}
-      </div>
+      {colors.map((color) => {
+        return (
+          <div
+            key={color}
+            className={classes.color}
+            style={{ backgroundColor: color }}
+          />
+        )
+      })}
     </Paper>
   )
 }
