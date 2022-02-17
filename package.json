@@ -9,7 +9,7 @@
     "browser-image-compression": "1.0.13",
     "clsx": "1.1.1",
     "isomorphic-unfetch": "3.1.0",
-    "next": "10.0.1",
+    "next": "12.1.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "typeface-roboto": "1.1.13"
